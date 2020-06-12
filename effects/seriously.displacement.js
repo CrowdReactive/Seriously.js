@@ -4,7 +4,7 @@
 
 	if (typeof exports === 'object') {
 		// Node/CommonJS
-		factory(require('seriously/seriously'));
+		factory(require('@eventstag/seriously'));
 	} else if (typeof define === 'function' && define.amd) {
 		// AMD. Register as an anonymous module.
 		define(['seriously'], factory);

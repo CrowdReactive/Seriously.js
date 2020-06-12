@@ -7,7 +7,7 @@
 		define(['seriously'], factory);
 	} else if (typeof exports === 'object') {
 		// Node/CommonJS
-		factory(require('seriously/seriously'));
+		factory(require('@eventstag/seriously'));
 	} else {
 		if (!root.Seriously) {
 			root.Seriously = { plugin: function (name, opt) { this[name] = opt; } };

@@ -7,7 +7,7 @@
 		define(['seriously'], factory);
 	} else if (typeof exports === 'object') {
 		// Node/CommonJS
-		factory(require('seriously/seriously'));
+		factory(require('@eventstag/seriously'));
 	} else {
 		var Seriously = root.Seriously;
 		if (!Seriously) {
