@@ -1,0 +1,9 @@
+{
+  "name": "@eventstag/seriously",
+  "version": "1.0.1",
+  "main": "seriously.js",
+  "repository": "git@github.com:CrowdReactive/Seriously.js",
+  "dependencies": {},
+  "author": "Viktor Hubert <contact@hubertviktor.com>",
+  "license": "MIT"
+}
